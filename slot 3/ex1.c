@@ -14,11 +14,13 @@ int main (){
 	int a = 7 , b = 2 ;
 	printf ("a = %d\n",a);
 	printf ("b = %d\n",b);
-	int kq ;
-	printf ("%d + %d = %d\n",a ,b ,kq=a+b);
-	printf ("%d - %d = %d\n",a ,b ,kq=a-b);
-	printf ("%d * %d = %d\n",a ,b ,kq=a*b);
-	double c;
-	printf ("%d / %d = %.2lf",a ,b,c=(double)a/b);
+	double kq ;
+	kq=a+b;
+	printf ("%.0d + %.0d = %.0lf \n",a ,b,kq);
+	kq=a-b;
+	printf ("%.0d - %.0d = %.0lf \n",a ,b,kq);
+	kq=a*b;
+	printf ("%.0d * %.0d = %.0lf \n",a,b,kq);
+	printf ("%.0d / %.0d = %.2lf",a,b,kq=(double)a/b);
 	return 0;
 }
