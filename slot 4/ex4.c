@@ -7,12 +7,14 @@ int main (){
 	printf ("Nhap a , b :");
 	scanf ("%d,%d",&a,&b);
 	printf("Nhap phep toan: ");
+	//fflush(sdtin); xóa vùng đệm
 	scanf(" %c", &c);
+	if (c=='/'){
 	if (b!=0){
 		printf("Ket qua : %d / %d = %.2f\n", a, b, (float)a / b);
 	}else{
 		printf ("Khong the chia cho 0");
 	}
-	
+}
 	return 0;
 }

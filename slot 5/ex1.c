@@ -8,5 +8,5 @@ int main (){
 	if (x<0)
 		x = -x;
 	printf("|%d| = %d\n", preX, x);
-	printf ("%.2f",sqrt(x));
+	printf ("Can bac 2 la: %.2f",sqrt(x));
 }
