@@ -24,6 +24,7 @@ int main(){
 		return 0;
 		}
 	dtb = (cc*0.1)+(gk*0.3)+(ck*0.6);
+	printf ("Diem tong ket:%.2f\n",dtb);
 	if (dtb>=8.5 && dtb <=10){
 		diemChu = 'A';
 	}else if (dtb>=7){
@@ -35,7 +36,8 @@ int main(){
 	}else{
 		diemChu ='F';
 	}
-	printf("Diem chu la: %c",diemChu);
-
+	printf("Diem chu la: %c\n",diemChu);
+	printf ("|%-15s|%-15s|%-15s|%-15s|%-15s|\n","Diem chuyen can","Diem giua ki","Diem cuoi ki","Diem tong ket","Diem chu la");
+	printf ("|%-15.2f|%-15.2f|%-15.2f|%-15.2f|%-15c|\n",cc,gk,ck,dtb,diemChu);
 	return 0;
 }
