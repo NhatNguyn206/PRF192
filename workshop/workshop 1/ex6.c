@@ -4,10 +4,8 @@ int main(){
 	char diemChu;
 	float dtb;
     printf("Nhap diem cc, gk, ck: ");
-    if (scanf("%f %f %f", &cc, &gk, &ck) != 3 || cc < 0 || gk < 0 || ck < 0)
+    if (scanf("%f %f %f", &cc, &gk, &ck) != 3 || cc < 0 || gk < 0 || ck < 0||cc > 10 || gk > 10 || ck > 10)
         return printf("Mot trong cac diem khong hop le!\n"), 0;
-
-
 	dtb = (cc*0.1)+(gk*0.3)+(ck*0.6);
 	printf ("Diem tong ket:%.2f\n",dtb);
 	if (dtb>=8.5 && dtb <=10){

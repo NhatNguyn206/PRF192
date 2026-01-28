@@ -20,8 +20,6 @@ int main (){
     } else {
         money = 12000 + (30 - 0.5) * 15000 + (km - 30) * 12000;
     }
-
-
 	if (time>5){
 		money +=(time-5)*1000;
 	}
