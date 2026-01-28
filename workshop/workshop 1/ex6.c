@@ -3,22 +3,10 @@ int main(){
 	float cc , gk , ck;
 	char diemChu;
 	float dtb;
-	printf ("Diem chuyen can ");
-	if (scanf("%f", &cc) != 1 || cc < 0) {
-    printf("Diem chuyen can khong hop le!\n");
-    return 0;
-}
+    printf("Nhap diem cc, gk, ck: ");
+    if (scanf("%f %f %f", &cc, &gk, &ck) != 3 || cc < 0 || gk < 0 || ck < 0)
+        return printf("Mot trong cac diem khong hop le!\n"), 0;
 
-	printf ("Diem giua ki ");
-	if (scanf("%f",&gk) !=1 || gk<0 ){
-		printf("Diem giua ki khong hop le!\n");
-    	return 0;
-	}
-	printf ("Diem cuoi ky ");
-	if (scanf("%f",&ck) !=1 || ck<0 ){
-		printf("Diem cuoi ki khong hop le!\n");
-    	return 0;
-	}
 		if (cc < 4 || gk < 4 || ck < 4 || diemChu == 'F'){
 		printf("Khong du dieu kien tot nghiep!");
 		return 0;
