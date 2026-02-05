@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main (){
-	long long soDu =10000000;
+	long long soDu =100000000;
 	long long rut;
 	int luaChon;
 	printf ("--------------------Mo phong ATM--------------------\n");

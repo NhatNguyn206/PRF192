@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main (){
 	int n;
+	int i = 0;
+	int check =0;
 	printf("Nhap vao n: ");
 	while (scanf ("%d",&n)!=1||n<0){
 	printf("Khong phai so chinh phuong! Nhap lai n: ",n);
 	while (getchar() != '\n');
 	}
-	int i = 0;
-	int check =0;
 	while (i*i<=n){
 		if (i*i==n){
 			check =1;

@@ -19,3 +19,4 @@ int main (){
 	printf("Tong so nguyen duong ban da nhap la: %lld",sum);
 	return 0;
 }
+
