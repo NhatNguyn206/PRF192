@@ -4,7 +4,7 @@ int main (){
 	double n;
 	printf("Nhap vao n: ");
 	while (scanf ("%lf",&n)!=1||n<=0||n>1000){
-		printf("Nhap vao n: ");
+		printf("Nhap sai!Nhap lai n: ");
 		fflush (stdin); // xóa vung d?m    //cách 1 
 		// ho?c 
 		// while (getchar ()!='\n';      //cách 2 
