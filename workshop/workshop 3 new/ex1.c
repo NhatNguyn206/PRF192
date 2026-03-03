@@ -1,5 +1,5 @@
 #include <stdio.h>
-int namNhuan(int year){
+int is_leap_year(int year){
 	if ((year % 4 ==0 && year % 100 !=0) || year % 400 == 0){
 		return 1;
 	}
@@ -24,7 +24,7 @@ int get_days_in_month(int month, int year){
 			return 30;
 			
 		case 2:
-			if (namNhuan(year)){
+			if (is_leap_year(year)){
 				return 29;
 			}
 			return 28;
