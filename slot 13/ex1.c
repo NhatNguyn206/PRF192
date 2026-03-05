@@ -1,8 +1,5 @@
 #include<stdio.h>
-#include <math.h>
-void doubleX(int x){
-	x = x + x;	
-}
+#include <math.h> 
 void doubleX2(int *p){
 	*p = *p + *p;
 }
